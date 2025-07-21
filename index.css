@@ -1,3 +1,15 @@
 h2{
-    color: aqua;
+    color: rgb(9, 165, 105);
+}
+
+form{
+    background-color: rgb(3, 86, 97);
+    color: white;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 70px;
 }
