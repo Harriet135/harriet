@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-between;
     color: white;
-    background-color: rgb(219, 112, 130);
+    background-color:  rgb(224, 129, 145);
     align-items: center;
     padding-left: 5px;
     padding-right: 5px;
@@ -18,11 +18,11 @@ header a{
 }
 
 header a:hover{
-    color: rgb(221, 144, 157);
+    color: pink;
 }
 
 form{
-    background-color: rgb(218, 97, 117);
+    background-color:  rgb(236, 126, 144);
     color: white;
     width: 300px;
     border-radius: 5px;

@@ -2,16 +2,14 @@ body{
     margin: 0;
 }
 
-.parent_div{
+.master_div{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(3, 36, 25);
     color: white;
-    margin: 10px;
+    background-color: rgb(224, 129, 145);
     align-items: center;
     padding-left: 5px;
     padding-right: 5px;
-
 }
 
 header a{
@@ -20,27 +18,31 @@ header a{
 }
 
 header a:hover{
-    color: rgb(148, 230, 202);
+    color: pink;
 }
 
-.lorem_div{
-    display: flex;
-    margin: 5px;
-}
-
-.master_div{
+.main_div{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    color:black;
-    margin: 10px;
+    gap: 5px;
+    margin-top: 10px;
 }
 
-.master_div div{
-    border: 1px solid blue;
-    border-radius: 5px;
+.main_div div{
+    border: 2px solid rgb(226, 142, 156);
+    border-radius: 7px;
     flex-basis: 200px;
-    padding: 1px;
     text-align: center;
 }
+
+.main_div div p{
+    padding: 5px;
+}
+
+.main_div div img{
+    border-radius: 2px;
+}
+
+
+
 
