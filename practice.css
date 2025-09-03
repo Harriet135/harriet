@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.parent_div{
+    display: flex;
+    background-color: rgb(56, 2, 56);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.parent_div a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    background-color: rgb(51, 2, 51);
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+}
+
+button :hover{
+    
+}
+
+.main_div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.main_div div{
+    border: 2px solid rgb(68, 7, 68);
+    border-radius: 5px;
+    flex-basis: 200px;
+    text-align: center;
+}
+
